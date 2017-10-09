@@ -24,6 +24,16 @@ h1 {
   font-family: AsphaltumWF;
 }
 
+#duxton img, #katong img, #strongflour img {
+  margin: 10px;
+  width:97%;
+  max-width: 500px;
+}
+
+#duxton, #katong, #strongflour {
+  text-align: center;
+  margin:auto;
+}
 
 h2 {
   font-family: AsphaltumWF;
