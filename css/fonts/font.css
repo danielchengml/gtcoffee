@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'LibreBarcode128Text-Regular';
+  src: url('LibreBarcode128Text-Regular.eot');
+  src: url('LibreBarcode128Text-Regular.woff2') format('woff2'),
+       url('LibreBarcode128Text-Regular.woff') format('woff'),
+       url('LibreBarcode128Text-Regular.ttf') format('truetype'),
+       url('LibreBarcode128Text-Regular.svg#LibreBarcode128Text-Regular') format('svg'),
+       url('LibreBarcode128Text-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

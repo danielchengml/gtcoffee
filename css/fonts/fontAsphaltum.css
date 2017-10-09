@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'AsphaltumWF';
+  src: url('AsphaltumWF.eot');
+  src: url('AsphaltumWF.woff2') format('woff2'),
+       url('AsphaltumWF.woff') format('woff'),
+       url('AsphaltumWF.ttf') format('truetype'),
+       url('AsphaltumWF.svg#AsphaltumWF') format('svg'),
+       url('AsphaltumWF.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
