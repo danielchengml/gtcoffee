@@ -23,7 +23,7 @@
 }
 
 body {
-  background-color: rgba(214,213,189,0.3);
+  /*background-color: rgba(214,213,189,0.3);*/
   font-size: 20px;
 }
 
@@ -121,7 +121,7 @@ body {
     padding-bottom: 0px;
     margin: 0px;
     padding: 0px;
-    /*height: 30px;*/
+    /*height: 50px;*/
   }
 }
 
@@ -167,7 +167,7 @@ body {
     padding-bottom: 0px;
     margin: -5px;
     padding: -5px;
-    /*height: 30px;*/
+    /*height: 50px;*/
   }
 }
 
@@ -185,8 +185,9 @@ body {
   font-size: 25px;
 }
 
-#theSpiel {
-  background-image:
+#locations {
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .navbar {
@@ -206,7 +207,9 @@ body {
 .well {
   margin-top: 0px;
   border: none;
+  background-color: rgba(0,0,0,0.0);
   border-radius: 0px;
+  width: 100%;
   /*background-color: rgba(233,230,194,1);*/
 }
 
@@ -231,17 +234,15 @@ h2 {
 #socialmedia .col-md-6 {
   text-align: center;
   height: 665px;
-
 }
 
 #findus {
   text-align: center;
   background-image: url("../img/find-us.png");
   background-position: right;
-  background-size: cover;
+  background-size: auto;
   margin-bottom: 20px;
 }
-
 
 #topbreak {
   position: absolute;
@@ -276,6 +277,21 @@ h3:hover {
   font-weight: bold;
 }
 
+#theSpiel {
+  background-image: url("../img/spielHeader.png");
+  background-position: center;
+  background-size: cover;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#events {
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: rgba(195, 167, 112, 0.2);
+  border-color: rgba(195, 167, 112, 0.2);
+}
+
 p {
   font-family: Menlo;
   color: rgb(135, 91, 54);
@@ -284,10 +300,14 @@ p {
 h3 {
   font-family: American Typewriter;
   cursor: pointer;
+  color: rgb(94, 60, 31);
 }
 
 h4 {
-  font-family: American Typewriter;
+  font-family: menlo;
+  font-size: 25px;
+  color: rgb(94, 60, 31);
+
 }
 
 .btn {
@@ -318,8 +338,50 @@ h4 {
   font-size: 17px;
 }
 
+.tel {
+  font-size: 20px;
+}
+
 .gtEmail {
-  font-size: 12px;
+  font-size: 18px;
+}
+
+#galleryLink {
+  display: block;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}
+
+.galleryPhoto {
+  background-size: cover;
+  width: 100%;
+  max-width: 800px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#galleryLink h3{
+  font-family: AsphaltumWF;
+  font-size: 60px;
+  padding-top: 20%;
+  padding-bottom: 30%;
+  color: white;
+  text-shadow: 5px 5px 5px #444444;
+}
+
+#galleryPhotoDuxton {
+  background-image: url('../img/duxton-gallery.png');
+}
+
+#galleryPhotoKatong {
+  background-image: url('../img/katong-gallery.png');
+}
+
+#galleryPhotostrongFlour {
+  background-image: url('../img/strongflour-gallery.png');
+
 }
 
 /*color pallette
