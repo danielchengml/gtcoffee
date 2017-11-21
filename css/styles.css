@@ -24,6 +24,7 @@
 
 body {
   background-color: rgba(214,213,189,0.3);
+  font-size: 20px;
 }
 
 .jumbotron h1 {
@@ -55,10 +56,6 @@ body {
 #duxtonimg, #katongimg, #strongflourimg {
   text-align: center;
   margin:auto;
-}
-
-h2 {
-  font-family: ZonaPro;
 }
 
 .jumbotron {
@@ -188,6 +185,10 @@ h2 {
   font-size: 25px;
 }
 
+#theSpiel {
+  background-image:
+}
+
 .navbar {
   position: fixed;
   z-index: 5;
@@ -221,9 +222,15 @@ h2 {
   padding-top: 250px;
 }
 
+h2 {
+  font-family: AsphaltumWF;
+  font-size: 40px;
+  color: rgb(94, 60, 31);
+}
+
 #socialmedia .col-md-6 {
   text-align: center;
-  height: 680px;
+  height: 665px;
 
 }
 
@@ -247,6 +254,7 @@ h2 {
 #navCaption {
    font-family: AsphaltumWF;
    font-size: 25px;
+   padding-top: 17px;
    color: rgb(249, 249, 249);
 }
 
@@ -256,12 +264,6 @@ h2 {
    font-size: 16px;
  }
 
-#theSpielHeader:hover {
-  color: #443323;
-  font-weight: bold;
-  text-decoration: underline;
-  cursor: pointer;
-}
 
 h3:hover {
   color: #4c4035;
@@ -276,6 +278,7 @@ h3:hover {
 
 p {
   font-family: Menlo;
+  color: rgb(135, 91, 54);
 }
 
 h3 {
@@ -313,22 +316,6 @@ h4 {
   color: #3a3a3a;
   font-weight: bold;
   font-size: 17px;
-}
-
-#theSpielText {
-  display: none;
-}
-
-#gtDuxtonText {
-  display: none;
-}
-
-#gtKatongText {
-  display: none;
-}
-
-#strongFlourText {
-  display: none;
 }
 
 .gtEmail {

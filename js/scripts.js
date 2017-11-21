@@ -21,21 +21,21 @@ $(".navbar-nav li a").click(function(event) {
         $(".navbar-collapse").collapse('hide');
 });
 
-  // Toggles content of "The Spiel"
-  $("#theSpielHeader").click(function() {
-    $("#theSpielPrev").toggle();
-    $("#theSpielText").toggle();
-  });
-  $("#duxtonHeader").click(function() {
-    $("#gtDuxtonPrev").toggle();
-    $("#gtDuxtonText").toggle();
-  });
-  $("#katongHeader").click(function() {
-    $("#gtKatongPrev").toggle();
-    $("#gtKatongText").toggle();
-  });
-  $("#strongFlourHeader").click(function() {
-    $("#strongFlourPrev").toggle();
-    $("#strongFlourText").toggle();
-  })
-});
+//   // Toggles content of "The Spiel"
+//   $("#theSpielHeader").click(function() {
+//     $("#theSpielPrev").toggle();
+//     $("#theSpielText").toggle();
+//   });
+//   $("#duxtonHeader").click(function() {
+//     $("#gtDuxtonPrev").toggle();
+//     $("#gtDuxtonText").toggle();
+//   });
+//   $("#katongHeader").click(function() {
+//     $("#gtKatongPrev").toggle();
+//     $("#gtKatongText").toggle();
+//   });
+//   $("#strongFlourHeader").click(function() {
+//     $("#strongFlourPrev").toggle();
+//     $("#strongFlourText").toggle();
+//   })
+// });
