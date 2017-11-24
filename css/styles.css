@@ -441,6 +441,17 @@ h4 {
   /*background-image: url('../img/strongflour-menu-prev.png');*/
 }
 
+footer {
+  /*text-align: center;*/
+  background-color: rgba(140, 133, 122, 0.8);
+  height: 60px;
+  text-align: center;
+  font-family: American Typewriter;
+  padding: 15px;
+
+}
+
+
 /*color pallette
 Muted blue: 	#697e8d	(105,126,141)
 Muted light Brown: #e9e6c2	(233,230,194)
