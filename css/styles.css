@@ -27,24 +27,8 @@ body {
   font-size: 20px;
 }
 
-.jumbotron h1 {
-  font-family: AsphaltumWF;
-  color: #493a36;
-  font-size: 100px;
-  padding-top: 40px;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
-}
-
-.jumbotron h2{
-  font-family: American Typewriter;
-  font-size: 35px;
-  font-weight: bold;
-  color: rgba(73,58,54, 0.8);
-  margin-top: 0px;
-  padding-top: 0px;
-  position: relative;
-  text-align: center;
+a {
+  text-decoration: none !important;
 }
 
 #duxtonimg img, #katongimg img, #strongflourimg img {
@@ -73,6 +57,61 @@ body {
   /*background-color: rgb(195,167,112);*/
 }
 
+.jumbotron h1 {
+  font-family: AsphaltumWF;
+  color: #493a36;
+  font-size: 100px;
+  padding-top: 40px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.jumbotron h2{
+  font-family: American Typewriter;
+  font-size: 35px;
+  font-weight: bold;
+  color: rgba(73,58,54, 0.8);
+  margin-top: 0px;
+  padding-top: 0px;
+  position: relative;
+  text-align: center;
+}
+
+.galleryJumbotron {
+  /*height: 150px;*/
+  /*padding: 0px;*/
+  text-align: center;
+  margin: 0px;
+  background-image: url("../img/gallery-header.png");
+  background-position: center;
+  width: 100%;
+  position: static;
+  margin-bottom: 40px;
+  background-size: cover;
+  height: 400px;
+  /*background-color: rgb(195,167,112);*/
+}
+
+.galleryJumbotron h1 {
+  font-family: AsphaltumWF;
+  color: #493a36;
+  font-size: 100px;
+  padding-top: 40px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+.galleryJumbotron h2{
+  font-family: American Typewriter;
+  font-size: 35px;
+  font-weight: bold;
+  color: rgba(73,58,54, 0.8);
+  margin-top: 0px;
+  padding-top: 0px;
+  position: relative;
+  text-align: center;
+}
+
 #brands .col-md-3 img{
   margin-top: 40px;
   max-width: 100%;
@@ -95,6 +134,20 @@ body {
     height: 380px;
   }
 
+  .galleryJumbotron {
+    /*height: 150px;*/
+    /*padding: 0px;*/
+    text-align: center;
+    margin: 0px;
+    background-image: url("../img/gallery-header.png");
+    background-position: center;
+    width: 100%;
+    position: static;
+    margin-bottom: 40px;
+    background-size: cover;
+    height: 380px;
+  }
+
   .jumbotron h1 {
     font-family: AsphaltumWF;
     color: #493a36;
@@ -104,7 +157,27 @@ body {
     padding-bottom: 0px;
   }
 
+  .galleryJumbotron h1 {
+    font-family: AsphaltumWF;
+    color: #493a36;
+    font-size: 60px;
+    padding-top: 40px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
   .jumbotron h2{
+    font-family: American Typewriter;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(73, 58, 54, 0.8);
+    margin-top: 0px;
+    padding-top: 0px;
+    position: relative;
+    text-align: center;
+  }
+
+  .galleryJumbotron h2{
     font-family: American Typewriter;
     font-size: 20px;
     font-weight: bold;
@@ -161,7 +234,42 @@ body {
     margin-bottom: -5px;
   }
 
-  #brands .col-md-5 img {
+  .galleryJumbotron {
+    /*height: 150px;*/
+    /*padding: 0px;*/
+    text-align: center;
+    margin: 0px;
+    background-image: url("../img/gallery-header.png");
+    background-position: center;
+    width: 100%;
+    position: static;
+    margin-bottom: 40px;
+    background-size: cover;
+    height: 290px;
+  }
+
+  .galleryJumbotron h1 {
+    font-family: AsphaltumWF;
+    color: #493a36;
+    font-size: 35px;
+    padding-top: 25px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  .galleryJumbotron h2{
+    font-family: American Typewriter;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(73, 58, 54, 0.8);
+    margin-top: 0px;
+    padding-top: 0px;
+    position: relative;
+    text-align: center;
+    margin-bottom: -5px;
+  }
+
+  #brands .col-md-3 img {
     max-width: 80%;
     max-height: 40px;
     padding-bottom: 0px;
@@ -178,7 +286,16 @@ body {
 
   .navbar-nav a{
   font-size: 12px; }
+
+  #brands .col-md-3 img {
+    max-width: 80%;
+    max-height: 40px;
+    padding-bottom: 0px;
+    margin: -5px;
+    padding: -5px;
+    /*height: 50px;*/
   }
+}
 
 .shortcuts {
   color: rgb(249, 249, 249);
@@ -410,7 +527,8 @@ h4 {
   display: block;
   margin: auto;
   text-align: center;
-  align-items: center;
+  align-content: center;
+  align-content: center;
 }
 
 .galleryPhoto {
@@ -428,25 +546,32 @@ h4 {
   -o-transform: scale(1.03);
 }
 
-#galleryLink h3{
+#galleryLink a {
   font-family: AsphaltumWF;
+  text-decoration: none;
   font-size: 60px;
   padding-top: 20%;
   padding-bottom: 30%;
+  margin-top: 100px;
   color: white;
   text-shadow: 5px 5px 5px #444444;
 }
 
 #galleryPhotoDuxton {
   background-image: url('../img/duxton-gallery.png');
+  margin: 20px;
 }
 
 #galleryPhotoKatong {
   background-image: url('../img/katong-gallery.png');
+  margin: 20px;
+
 }
 
 #galleryPhotostrongFlour {
   background-image: url('../img/strongflour-gallery.png');
+  margin: 20px;
+
 }
 
 #Menus {
