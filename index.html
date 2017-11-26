@@ -26,11 +26,11 @@
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li><a class="shortcuts" href="#"> THE SPIEL .</a></li>
-          <li><a class="shortcuts" href="#"> LOCATIONS .</a></li>
-          <li><a class="shortcuts" href="#"> EVENTS .</a></li>
-          <li><a class="shortcuts" href="#"> MENUS .</a></li>
-          <li><a class="shortcuts" href="#"> CAREERS .</a></li>
+          <li><a class="shortcuts" href="#theSpiel"> THE SPIEL .</a></li>
+          <li><a class="shortcuts" href="#locations"> LOCATIONS .</a></li>
+          <li><a class="shortcuts" href="#events"> EVENTS .</a></li>
+          <li><a class="shortcuts" href="#Menus"> MENUS .</a></li>
+          <li><a class="shortcuts" href="#careers"> CAREERS .</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
         </ul>
@@ -188,18 +188,51 @@
       <p>Good food is best enjoyed with good drink. We carry a range of locally roasted coffees, teas, sodas and beer to round off every great meal.</p>
       <div class="row">
         <div id="StrongFlourMenu" class="col-md-6 menuPrev">
-          <img src="img/strongflour-menu-prev.png" alt="">
+          <img data-toggle="modal" data-target="#strongflourModal" id="imgStrongFlour" src="img/strongflour-menu-prev.png" alt="">
+        </div>
+
+        <!-- The Modal -->
+        <div id="strongflourModal" class="modal fade" role="dialog">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <!-- <span class="close">&times;</span> -->
+              <img src="img/strongflour-menu.png" alt="Strong Flour Menu">
+            </div>
         </div>
 
         <div id="KatongMenu" class="col-md-6 menuPrev">
-          <img src="img/katong-menu-prev.png" alt="">
+          <img data-toggle="modal" data-target="#katongModal" src="img/katong-menu-prev.png" alt="">
         </div>
       </div>
+
+      <!-- The Modal -->
+      <div id="katongModal" class="modal fade" role="dialog">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <!-- <span class="close">&times;</span> -->
+            <img src="img/katongdrinks.jpg" alt="Katong Drinks Menu">
+            <img src="img/katongweekday.jpg" alt="Katong Weekday Menu">
+            <img src="img/katongweekend.jpg" alt="Katong Weekend Menu">
+          </div>
+      </div>
+
       <div class="row">
         <div id="DuxtonMenu" class="col-md-6 menuPrev">
-          <img src="img/duxton-menu-prev.png" alt="">
+          <img data-toggle="modal" data-target="#duxtonModal" src="img/duxton-menu-prev.png" alt="">
         </div>
       </div>
+
+      <!-- The Modal -->
+      <div id="duxtonModal" class="modal fade" role="dialog">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <!-- <span class="close">&times;</span> -->
+            <img src="img/duxtondrinks.jpg" alt="Katong Drinks Menu">
+            <img src="img/duxtonweekday.jpg" alt="Katong Weekday Menu">
+            <img src="img/duxtonweekend.jpg" alt="Katong Weekend Menu">
+          </div>
+      </div>
+
     </div>
     <div class="well" id="careers">
         <h2>Careers</h2>
@@ -208,7 +241,6 @@
         <p>We have the simple purpose of producing great food & drink for all who walk through our doors.</p>
         <p>We bake our own bread & cakes, pull coffee, flip pancakes, mop floors, run to the bank for change, take out the trash and do it all as a team. We are always on the look out for good people for the kitchen and front of house.</p>
         <p><strong>If you are good people, get in touch with us at <a href="mailto:events@gtcoffee.com">events@gtcoffee.com</a></strong></p>
-
     </div>
 
 </body>

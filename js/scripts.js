@@ -21,6 +21,10 @@ $(".navbar-nav li a").click(function(event) {
         $(".navbar-collapse").collapse('hide');
 });
 
+$("#imgStrongFlour").click(function(event) {
+    
+})
+
 //   // Toggles content of "The Spiel"
 //   $("#theSpielHeader").click(function() {
 //     $("#theSpielPrev").toggle();

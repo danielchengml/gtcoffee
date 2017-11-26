@@ -224,7 +224,8 @@ body {
 #findus img:hover {
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
-  -o-transform: scale(1.05)
+  -o-transform: scale(1.05);
+  cursor: pointer;
 }
 
 #instagramWidget {
@@ -310,7 +311,45 @@ h3:hover {
   padding-right: 50px;
   background-color: rgba(195, 167, 112, 0.2);
   border-color: rgba(195, 167, 112, 0.2);
+  margin: 0px;
 }
+
+.modal-content {
+  text-align: center;
+}
+
+.modal-content img{
+  background-color: #fefefe;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #888;
+    width: 95%;
+}
+
+.close {
+    color: brown;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
 
 p {
   font-family: Menlo;
@@ -340,7 +379,8 @@ h4 {
   background-color: #ffe077;
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
-    -o-transform: scale(1.1)
+    -o-transform: scale(1.1);
+    cursor: pointer;
 }
 
 #chopeBtn {
@@ -426,7 +466,8 @@ h4 {
 .menuPrev img:hover {
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
-  -o-transform: scale(1.05)
+  -o-transform: scale(1.05);
+  cursor: pointer;
 }
 
 #StrongFlourMenu {
