@@ -118,6 +118,7 @@ a {
   color: #493a36;
   font-size: 100px;
   padding-top: 100px;
+  margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
@@ -141,7 +142,7 @@ a {
 }
 
 #singleBrands img{
-  margin-top: 50px;
+  margin-top: 40px;
   max-width: 80%;
   padding: 10px;
   /*height: 50px;*/
@@ -189,6 +190,7 @@ a {
     font-family: AsphaltumWF;
     color: #493a36;
     font-size: 60px;
+    margin-top: 0px
     padding-top: 80px;
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -226,7 +228,7 @@ a {
   }
 
   #singleBrands img{
-    margin-top: 110px;
+    margin-top: 70px;
     max-width: 80%;
     padding: 10px;
     /*height: 50px;*/
@@ -288,6 +290,7 @@ a {
     color: #493a36;
     font-size: 35px;
     padding-top: 65px;
+    margin-top: 0px;
     margin-bottom: 0px;
     padding-bottom: 0px;
   }
@@ -314,7 +317,7 @@ a {
   }
 
   #singleBrands img{
-    margin-top: 120px;
+    margin-top: 80px;
     max-width: 80%;
     padding: 10px;
     /*height: 50px;*/
@@ -339,7 +342,7 @@ a {
   }
 
   #singleBrands img{
-    margin-top: 80px;
+    margin-top: 60px;
     max-width: 80%;
     padding: 10px;
     /*height: 50px;*/
@@ -455,6 +458,15 @@ h2 {
   height: 665px;
 }*/
 
+.wellImgs {
+  text-align: center;
+}
+
+.wellImgs img{
+  max-width: 80%;
+  margin: 20px;
+}
+
 #findus img{
   max-width: 100%;
   height: auto;
@@ -476,7 +488,6 @@ h2 {
 #navCaption {
    font-family: AsphaltumWF;
    font-size: 25px;
-   padding-top: 17px;
    color: rgb(249, 249, 249);
 }
 
