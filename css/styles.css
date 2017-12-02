@@ -148,6 +148,24 @@ a {
   /*height: 50px;*/
 }
 
+#duxtonHeader h1{
+  padding-top: 30%;
+  padding-bottom: 30%;
+  font-size: 45px;
+}
+
+#katongHeader h1{
+  padding-top: 30%;
+  padding-bottom: 30%;
+  font-size: 45px;
+}
+
+#strongFlourHeader h1{
+  padding-top: 30%;
+  padding-bottom: 30%;
+  font-size: 45px;
+}
+
 @media screen and (max-width: 992px) and (min-width: 538px) {
   .jumbotron {
     /*height: 150px;*/
@@ -233,6 +251,25 @@ a {
     padding: 10px;
     /*height: 50px;*/
   }
+
+  #duxtonHeader h1{
+    padding-top: 30%;
+    padding-bottom: 30%;
+    font-size: 45px;
+  }
+
+  #katongHeader h1{
+    padding-top: 30%;
+    padding-bottom: 30%;
+    font-size: 45px;
+  }
+
+  #strongFlourHeader h1{
+    padding-top: 30%;
+    padding-bottom: 30%;
+    font-size: 45px;
+  }
+
 }
 
 @media screen and (max-width: 538px) {
@@ -321,6 +358,24 @@ a {
     max-width: 80%;
     padding: 10px;
     /*height: 50px;*/
+  }
+
+  #duxtonHeader h1{
+    padding-top: 30%;
+    padding-bottom: 30%;
+    font-size: 45px;
+  }
+
+  #katongHeader h1{
+    padding-top: 30%;
+    padding-bottom: 30%;
+    font-size: 45px;
+  }
+
+  #strongFlourHeader h1{
+    padding-top: 30%;
+    padding-bottom: 30%;
+    font-size: 45px;
   }
 }
 
@@ -460,11 +515,12 @@ h2 {
 
 .wellImgs {
   text-align: center;
+  margin-top: 30px;
 }
 
 .wellImgs img{
-  max-width: 80%;
-  margin: 20px;
+  max-width: 100%;
+  margin-top: 20px;
 }
 
 #findus img{
@@ -627,13 +683,13 @@ h4 {
 
 #galleryLink {
   display: block;
-  margin: auto;
+  margin-left: 20%;
+  margin-right: 20%;
   text-align: center;
-  align-content: center;
-  align-content: center;
 }
 
 .galleryPhoto {
+  display: block;
   background-size: cover;
   width: 100%;
   max-width: 800px;
@@ -657,6 +713,21 @@ h4 {
   margin-top: 100px;
   color: white;
   text-shadow: 5px 5px 5px #444444;
+}
+
+#duxtonHeader h1{
+  padding-top: 20%;
+  font-size: 60px;
+}
+
+#katongHeader h1{
+  padding-top: 20%;
+  font-size: 60px;
+}
+
+#strongFlourHeader h1{
+  padding-top: 20%;
+  font-size: 60px;
 }
 
 #galleryPhotoDuxton {
