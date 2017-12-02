@@ -22,7 +22,7 @@ $(".navbar-nav li a").click(function(event) {
 });
 
 $("#imgStrongFlour").click(function(event) {
-    
+
 })
 
 //   // Toggles content of "The Spiel"
