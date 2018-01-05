@@ -757,10 +757,30 @@ h4 {
 
 }
 
-#Menus {
+#Menus, #orders {
   padding-top: 10px;
   padding-left: 50px;
   padding-right: 50px;
+}
+
+#orders h4 {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: menlo;
+}
+
+#cakeCatalogue {
+  margin-top: 28px;
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 6px;
+  padding-left: 30px;
+  background-color: rgba(237, 237, 237, 0.8);
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Zona Pro;
 }
 
 .menuPrev {

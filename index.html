@@ -6,8 +6,8 @@
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.2.1.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One" rel="stylesheet">
-<script src="js/scripts.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One" rel="stylesheet">
+  <script src="js/scripts.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   <link rel="shortcut icon" type="img/favicon" href="img/coffee-icon.png">
@@ -52,7 +52,7 @@
         <a href="strongflour.html"><img src="img/strong-flour.png" alt="Strong Flour"></a>
       </div>
       <div class="col-md-3">
-        <a href="scooptherapy.html"><img src="img/scoop-therapy.png" alt="Scoop Therapy"></a>
+        <a href="http://www.scooptherapy.group"><img src="img/scoop-therapy.png" alt="Scoop Therapy"></a>
       </div>
     </div>
   </div>
@@ -155,7 +155,7 @@
                     Singapore 428722</p>
                     <br>
                     <p><a class="tel" href="Tel:+6562479335">+65 6247 9335</a> <br>
-                    <a class="gtEmail" href="mailto:contact@scooptherapy.com">contact@scooptherapy.com</a></p>
+                    <a class="gtEmail" href="mailto:kitchen@gtcoffee.com">contact@scooptherapy.com</a></p>
                     <br>
                     <h4><strong>Opening Hours</strong></h4><br>
                     <p><strong><em>Mondays:</em></strong></p>
@@ -247,6 +247,60 @@
         <p>We have the simple purpose of producing great food & drink for all who walk through our doors.</p>
         <p>We bake our own bread & cakes, pull coffee, flip pancakes, mop floors, run to the bank for change, take out the trash and do it all as a team. We are always on the look out for good people for the kitchen and front of house.</p>
         <p><strong>If you are good people, get in touch with us at <a href="mailto:events@gtcoffee.com">events@gtcoffee.com</a></strong></p>
+    </div>
+    <div class="well" id="orders">
+      <h2>Customised Cakes/ Catering/ Wholesale</h2>
+
+      <div class="wellImgs row">
+        <div class="col-sm-4">
+          <img src="img/ordersImg/orders-1.jpg" alt="cake 1">
+        </div>
+        <div class="col-sm-4">
+          <img src="img/ordersImg/orders-2.jpg" alt="cake 2">
+        </div>
+        <div class="col-sm-4">
+          <img src="img/ordersImg/orders-3.jpg" alt="cake 3">
+        </div>
+      </div>
+
+      <h4>Customized Cakes/Catering</h4>
+      <p>
+        Our in house bakery provides customised cakes and catering options for all events.
+        Whether it's a one-of-a-kind cake for a special occasion, an intimate gathering of 10 or an illustrious reception of 300 guests.
+        We have food to suit the mood!
+      </p>
+      <p>Get in touch with us!  <a class="gtEmail" href="mailto:kitchen@gtcoffee.com">kitchen@gtcoffee.com</a></p>
+
+      <div id="cakeCatalogue">
+        <p><a  href="assets/cake-catalogue.pdf">Group Therapy Cake Catalogue</a><p>
+      </div>
+
+      <h4>Wholesale Enquiries</h4>
+      <p>
+        Need a supply of ready-to-serve bagels, croissants or sliced cakes? Our in-house bakery churns out artisanal breads, pastries and savouries everyday.
+      </p>
+      <p>Talk to us!  <a class="gtEmail" href="mailto:kitchen@gtcoffee.com">kitchen@gtcoffee.com</a></p>
+      <p>Wholesale Ice Cream Enquiries : <a class="gtEmail" href="www.scooptherapy.group">www.scooptherapy.group</a></p>
+      <br>
+
+      <h4>Order Form</h4>
+      <form id="orderForm" method="POST" action="http://formspree.io/kitchen@gtcoffee.com">
+        <div class="form-group">
+          <input class="form-control form-control-lg" type="name" name="Name" placeholder="Your Name"><br>
+          <input class="form-control form-control-lg" type="email" name="Email" placeholder="Your Email"><br>
+          <input class="form-control form-control-lg" name="Phone" type='tel' placeholder="Contact Number">
+        </div>
+        <h4>Request Type:</h4>
+        <select class="form-control" name="Request">
+          <option class="form-control" value="Event">Event</option>
+          <option class="form-control" value="Customised Cakes">Customised Cakes</option>
+          <option class="form-control" value="Catering">Catering</option>
+          <option class="form-control" value="Wholesale Enquiry">Wholesale Enquiry</option>
+        </select>
+        <h4>Enquiry</h4>
+        <textarea class="form-control form-control-lg" name="Message" placeholder="Your message"></textarea>
+        <button class="btn" type="submit">Send</button>
+      </form>
     </div>
 
 </body>
