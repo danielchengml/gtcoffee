@@ -176,7 +176,7 @@ a {
   font-size: 45px;
 }
 
-@media screen and (max-width: 992px) and (min-width: 538px) {
+@media screen and (max-width: 992px) and (min-width: 720px) {
   .jumbotron {
     /*height: 150px;*/
     /*padding: 0px;*/
@@ -208,8 +208,8 @@ a {
   .jumbotron h1 {
     font-family: AsphaltumWF;
     color: #493a36;
-    font-size: 60px;
-    padding-top: 40px;
+    font-size: 80px;
+    padding-top: 20px;
     margin-bottom: 0px;
     padding-bottom: 0px;
   }
@@ -282,7 +282,7 @@ a {
 
 }
 
-@media screen and (max-width: 538px) {
+@media screen and (max-width: 720px) {
   .jumbotron {
     /*height: 150px;*/
     /*padding: 0px;*/
