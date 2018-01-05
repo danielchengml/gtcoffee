@@ -33,12 +33,20 @@ a {
 
 @media (max-width: 1053px) {
     #myNavbar a{
-      font-size: 14px !important;
+      font-size: 12px !important;
     }
 
     #locations {
       text-align: center;
     }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1000px) {
+   .collapse {
+       display: none !important;
+   }
 }
 
 #duxtonimg img, #katongimg img, #strongflourimg img {
@@ -416,7 +424,7 @@ a {
 
 .shortcuts {
   color: rgb(249, 249, 249);
-  font-size: 25px;
+  font-size: 14px;
 }
 
 #locations {
