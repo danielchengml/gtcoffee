@@ -2,6 +2,8 @@
 
 This is a webpage for Group Therapy Cafe based in Singapore. The webpage embodies the cafe's culture and philosophy as well as provides information on their offerings.
 
+The full website is http://www.gtcoffee.com and the gh-pages is http://danielchengml.github.io/gtcoffee
+
 ### Prerequisites
 
 * An HTML writer (In our case, Atom.io)
