@@ -31,7 +31,7 @@ a {
   text-decoration: none !important;
 }
 
-@media (max-width: 1053px) {
+@media (max-width: 1105px) {
     #myNavbar a{
       font-size: 12px !important;
     }
@@ -43,7 +43,7 @@ a {
 }
 
 
-@media (min-width: 768px) and (max-width: 1000px) {
+@media (min-width: 768px) and (max-width: 1105px) {
    .collapse {
        display: none !important;
    }
