@@ -691,6 +691,23 @@ h4 {
   font-size: 17px;
 }
 
+#scoop-well {
+  background-color: #998580;
+  text-align: center;
+  height: 40px;
+  padding-top: 5px !important;
+  border-radius: 8px;
+  max-width: 200px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#scoop-well h2 {
+  margin: 0px !important;
+  color: white;
+  font-size: 30px;
+}
+
 .tel {
   font-size: 20px;
 }
