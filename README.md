@@ -16,7 +16,7 @@ The full website is http://www.gtcoffee.com and the gh-pages is http://danielche
 * [Atom](http://atom.io)
 * [Github](https://www.github.com)
 
-##Server information
+## Server information
 * CPanel/ Webvision
 
 
