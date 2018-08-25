@@ -32,32 +32,34 @@ a {
 }
 
 @media (max-width: 1105px) {
-    #myNavbar a{
-      font-size: 12px !important;
-    }
+  #myNavbar a {
+    font-size: 12px !important;
+  }
 
-    #locations {
-      text-align: center;
-    }
-
+  #locations {
+    text-align: center;
+  }
 }
-
 
 @media (min-width: 768px) and (max-width: 1105px) {
-   .collapse {
-       display: none !important;
-   }
+  .collapse {
+    display: none !important;
+  }
 }
 
-#duxtonimg img, #katongimg img, #strongflourimg img {
+#duxtonimg img,
+#katongimg img,
+#strongflourimg img {
   margin: 10px;
-  width:97%;
+  width: 97%;
   max-width: 500px;
 }
 
-#duxtonimg, #katongimg, #strongflourimg {
+#duxtonimg,
+#katongimg,
+#strongflourimg {
   text-align: center;
-  margin:auto;
+  margin: auto;
 }
 
 #instagramWidget {
@@ -105,11 +107,11 @@ a {
   padding-bottom: 0px;
 }
 
-.jumbotron h2{
+.jumbotron h2 {
   font-family: American Typewriter;
   font-size: 35px;
   font-weight: bold;
-  color: rgba(73,58,54, 0.8);
+  color: rgba(73, 58, 54, 0.8);
   margin-top: 0px;
   padding-top: 0px;
   position: relative;
@@ -141,44 +143,44 @@ a {
   padding-bottom: 0px;
 }
 
-.galleryJumbotron h2{
+.galleryJumbotron h2 {
   font-family: American Typewriter;
   font-size: 35px;
   font-weight: bold;
-  color: rgba(73,58,54, 0.8);
+  color: rgba(73, 58, 54, 0.8);
   margin-top: 0px;
   padding-top: 0px;
   position: relative;
   text-align: center;
 }
 
-#brands .col-md-3 img{
+#brands .col-md-3 img {
   margin-top: 50px;
   max-width: 100%;
   padding: 10px;
   /*height: 50px;*/
 }
 
-#singleBrands img{
+#singleBrands img {
   margin-top: 40px;
   max-width: 80%;
   padding: 10px;
   /*height: 50px;*/
 }
 
-#duxtonHeader h1{
+#duxtonHeader h1 {
   padding-top: 30%;
   padding-bottom: 30%;
   font-size: 45px;
 }
 
-#katongHeader h1{
+#katongHeader h1 {
   padding-top: 30%;
   padding-bottom: 30%;
   font-size: 45px;
 }
 
-#strongFlourHeader h1{
+#strongFlourHeader h1 {
   padding-top: 30%;
   padding-bottom: 30%;
   font-size: 45px;
@@ -226,13 +228,13 @@ a {
     font-family: AsphaltumWF;
     color: #493a36;
     font-size: 60px;
-    margin-top: 0px
+    margin-top: 0px;
     padding-top: 80px;
     margin-bottom: 0px;
     padding-bottom: 0px;
   }
 
-  .jumbotron h2{
+  .jumbotron h2 {
     font-family: American Typewriter;
     font-size: 20px;
     font-weight: bold;
@@ -243,7 +245,7 @@ a {
     text-align: center;
   }
 
-  .galleryJumbotron h2{
+  .galleryJumbotron h2 {
     font-family: American Typewriter;
     font-size: 20px;
     font-weight: bold;
@@ -263,31 +265,30 @@ a {
     /*height: 50px;*/
   }
 
-  #singleBrands img{
+  #singleBrands img {
     margin-top: 70px;
     max-width: 80%;
     padding: 10px;
     /*height: 50px;*/
   }
 
-  #duxtonHeader h1{
+  #duxtonHeader h1 {
     padding-top: 30%;
     padding-bottom: 30%;
     font-size: 45px;
   }
 
-  #katongHeader h1{
+  #katongHeader h1 {
     padding-top: 30%;
     padding-bottom: 30%;
     font-size: 45px;
   }
 
-  #strongFlourHeader h1{
+  #strongFlourHeader h1 {
     padding-top: 30%;
     padding-bottom: 30%;
     font-size: 45px;
   }
-
 }
 
 @media screen and (max-width: 720px) {
@@ -314,7 +315,7 @@ a {
     padding-bottom: 0px;
   }
 
-  .jumbotron h2{
+  .jumbotron h2 {
     font-family: American Typewriter;
     font-size: 15px;
     font-weight: bold;
@@ -350,7 +351,7 @@ a {
     padding-bottom: 0px;
   }
 
-  .galleryJumbotron h2{
+  .galleryJumbotron h2 {
     font-family: American Typewriter;
     font-size: 15px;
     font-weight: bold;
@@ -371,26 +372,26 @@ a {
     /*height: 50px;*/
   }
 
-  #singleBrands img{
+  #singleBrands img {
     margin-top: 80px;
     max-width: 80%;
     padding: 10px;
     /*height: 50px;*/
   }
 
-  #duxtonHeader h1{
+  #duxtonHeader h1 {
     padding-top: 30%;
     padding-bottom: 30%;
     font-size: 45px;
   }
 
-  #katongHeader h1{
+  #katongHeader h1 {
     padding-top: 30%;
     padding-bottom: 30%;
     font-size: 45px;
   }
 
-  #strongFlourHeader h1{
+  #strongFlourHeader h1 {
     padding-top: 30%;
     padding-bottom: 30%;
     font-size: 45px;
@@ -402,8 +403,9 @@ a {
     display: none;
   }
 
-  .navbar-nav a{
-  font-size: 12px; }
+  .navbar-nav a {
+    font-size: 12px;
+  }
 
   #brands .col-md-3 img {
     max-width: 80%;
@@ -414,7 +416,7 @@ a {
     /*height: 50px;*/
   }
 
-  #singleBrands img{
+  #singleBrands img {
     margin-top: 60px;
     max-width: 80%;
     padding: 10px;
@@ -433,6 +435,34 @@ a {
   margin-right: 50px;
 }
 
+.top-bar {
+  background-color: white;
+  width: 100%;
+  z-index: 5;
+  position: fixed;
+}
+
+.top-bar p {
+  font-family: ZonaPro;
+  padding: 5px;
+}
+
+.top-bar-back {
+  height: 30px;
+  width: 100%;
+  z-index: 1;
+  position: relative;
+}
+
+.top-bar p {
+  padding-top: 11px;
+  padding-left: 20px;
+}
+
+.top-bar:hover {
+  cursor: pointer;
+}
+
 .navbar {
   position: fixed;
   z-index: 5;
@@ -441,16 +471,17 @@ a {
   border: none;
   /*height: 30px;*/
   border-radius: 0px;
+  margin-top: 18px;
 }
 
 .navbar-nav a {
   color: white !important;
-  }
+}
 
 .well {
   margin-top: 0px;
   border: none;
-  background-color: rgba(0,0,0,0.0);
+  background-color: rgba(0, 0, 0, 0);
   border-radius: 0px;
   width: 100%;
   /*background-color: rgba(233,230,194,1);*/
@@ -502,11 +533,11 @@ a {
         width: 60px;
     }*/
 
-
-#findus h2, #findus a {
+#findus h2,
+#findus a {
   font-size: 100px;
   font-family: ZonaPro;
-  color: rgba(76, 64, 39,1) !important;
+  color: rgba(76, 64, 39, 1) !important;
   /*text-shadow: -5px -5px 10px #2d2d2d;*/
   padding-top: 250px;
 }
@@ -533,15 +564,15 @@ h2 {
 
 .wellImgs {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
-.wellImgs img{
+.wellImgs img {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
-#findus img{
+#findus img {
   max-width: 100%;
   height: auto;
 
@@ -556,38 +587,41 @@ h2 {
 }
 
 .col-sm-3 .well {
-  background-color: rgba(247, 247, 247,0.8);
+  background-color: rgba(247, 247, 247, 0.8);
 }
 
 #navCaption {
-   font-family: AsphaltumWF;
-   font-size: 25px;
-   color: rgb(249, 249, 249);
+  font-family: AsphaltumWF;
+  font-size: 22px;
+  color: rgb(249, 249, 249);
+}
+
+.col-md-6 {
+  padding: 0px;
 }
 
 #myNavbar {
-   color: rgb(249, 249, 249);
-   font-family: ZonaPro;
-   font-size: 16px;
- }
-
+  color: rgb(249, 249, 249);
+  font-family: ZonaPro;
+  font-size: 16px;
+}
 
 h3:hover {
   color: #d6d5bd;
   font-weight: bold;
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
-  -o-transform: scale(1.1)
+  -o-transform: scale(1.1);
 }
 
 .tel {
   font-size: 13px;
   font-weight: bold;
-  color:
 }
 
 .row {
   /*padding-top: 30px;*/
+  width: 100%;
   margin-bottom: 30px;
 }
 
@@ -599,7 +633,9 @@ h3:hover {
   padding-right: 50px;
 }
 
-#events, #careers {
+#events,
+#careers,
+#orders {
   padding-left: 50px;
   padding-right: 50px;
   background-color: rgba(195, 167, 112, 0.2);
@@ -611,38 +647,37 @@ h3:hover {
   text-align: center;
 }
 
-.modal-content img{
+.modal-content img {
   background-color: #fefefe;
-    margin: auto;
-    padding: 10px;
-    margin-bottom: 30px;
-    border: 1px solid #888;
-    width: 95%;
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 30px;
+  border: 1px solid #888;
+  width: 95%;
 }
 
 .close {
-    color: brown;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+  color: brown;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /* Modal Content/Box */
 .modal-content {
-    background-color: #fefefe;
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
 }
-
 
 p {
   font-family: Menlo;
@@ -659,7 +694,6 @@ h4 {
   font-family: menlo;
   font-size: 25px;
   color: rgb(94, 60, 31);
-
 }
 
 .btn {
@@ -670,14 +704,14 @@ h4 {
 
 .btn:hover {
   background-color: #ffe077;
-    -webkit-transform: scale(1.1);
-    -moz-transform: scale(1.1);
-    -o-transform: scale(1.1);
-    cursor: pointer;
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  cursor: pointer;
 }
 
 #chopeBtn {
-  font-family: 'Fjalla One', sans-serif;
+  font-family: "Fjalla One", sans-serif;
   color: #3a3a3a;
   font-weight: bold;
   font-size: 17px;
@@ -685,7 +719,7 @@ h4 {
 }
 
 #scoopBtn {
-  font-family: 'Fjalla One', sans-serif;
+  font-family: "Fjalla One", sans-serif;
   color: #3a3a3a;
   font-weight: bold;
   font-size: 17px;
@@ -738,6 +772,17 @@ h4 {
   -o-transform: scale(1.03);
 }
 
+.ordersPhoto {
+  margin-bottom: 40px;
+}
+
+.ordersPhoto:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.01);
+  -moz-transform: scale(1.01);
+  -o-transform: scale(1.01);
+}
+
 #galleryLink a {
   font-family: AsphaltumWF;
   text-decoration: none;
@@ -749,39 +794,38 @@ h4 {
   text-shadow: 5px 5px 5px #444444;
 }
 
-#duxtonHeader h1{
+#duxtonHeader h1 {
   padding-top: 20%;
   font-size: 60px;
 }
 
-#katongHeader h1{
+#katongHeader h1 {
   padding-top: 20%;
   font-size: 60px;
 }
 
-#strongFlourHeader h1{
+#strongFlourHeader h1 {
   padding-top: 20%;
   font-size: 60px;
 }
 
 #galleryPhotoDuxton {
-  background-image: url('../img/duxton-gallery.png');
+  background-image: url("../img/duxton-gallery.png");
   margin: 20px;
 }
 
 #galleryPhotoKatong {
-  background-image: url('../img/katong-gallery.png');
+  background-image: url("../img/katong-gallery.png");
   margin: 20px;
-
 }
 
 #galleryPhotostrongFlour {
-  background-image: url('../img/strongflour-gallery.png');
+  background-image: url("../img/strongflour-gallery.png");
   margin: 20px;
-
 }
 
-#Menus, #orders {
+#Menus,
+#online-orders {
   padding-top: 10px;
   padding-left: 50px;
   padding-right: 50px;
@@ -796,22 +840,23 @@ h4 {
 }
 
 #cakeCatalogue {
+  text-align: center;
   margin-top: 28px;
   padding-left: 30px;
   padding-top: 15px;
   padding-bottom: 6px;
   padding-left: 30px;
-  background-color: rgba(237, 237, 237, 0.8);
+  background-color: rgba(255, 255, 255, 0.8);
   font-size: 25px;
   font-weight: bold;
-  font-family: Zona Pro;
+  font-family: ZonaPro;
 }
 
 .menuPrev {
   text-align: center;
 }
 
-.menuPrev img{
+.menuPrev img {
   max-width: 90%;
   margin: 30px;
 }
@@ -842,9 +887,7 @@ footer {
   text-align: center;
   font-family: American Typewriter;
   padding: 15px;
-
 }
-
 
 /*color pallette
 Muted blue: 	#697e8d	(105,126,141)
