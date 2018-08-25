@@ -20,29 +20,3 @@ $(".navbar-nav li a").click(function(event) {
     if (!$(this).parent().hasClass('dropdown'))
         $(".navbar-collapse").collapse('hide');
 });
-
-
-
-
-$("#imgStrongFlour").click(function(event) {
-
-})
-
-//   // Toggles content of "The Spiel"
-//   $("#theSpielHeader").click(function() {
-//     $("#theSpielPrev").toggle();
-//     $("#theSpielText").toggle();
-//   });
-//   $("#duxtonHeader").click(function() {
-//     $("#gtDuxtonPrev").toggle();
-//     $("#gtDuxtonText").toggle();
-//   });
-//   $("#katongHeader").click(function() {
-//     $("#gtKatongPrev").toggle();
-//     $("#gtKatongText").toggle();
-//   });
-//   $("#strongFlourHeader").click(function() {
-//     $("#strongFlourPrev").toggle();
-//     $("#strongFlourText").toggle();
-//   })
-// });
